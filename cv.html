@@ -1,22 +1,125 @@
 <html>
   <head>
+    <style>
+        .header{
+            text-align :center;
+            border:1px solid black;
+            width: 1000px;
+            margin-left : 100px;
+            margin-right : 100px;
+        }
+        .picto {
+            margin-top :3px;
+            margin-bottom: 3px;
+            margin-right: 5px;
+        }
+        .left {
+            text-align:left;
+        }
+        .center {
+            text-align:center;
+        }
+        .right {
+            text-align:right;
+        }
+
+    </style>    
     
   </head>
   <body>
-    <table>
-      <tr align="center"><h1>Mon CV</h1></tr>
+    <table align="center" border="1px">
       <tr>
-        <td><h2>Informations personnelles</h2>
+        <td class="header" colspan="4"><h1>Mon CV</h1></td>
+    </tr>
+      <tr>
+        <td class="left"><h2>Informations personnelles</h2>
           <p>
           DUPORT<br>
           Cyril<br>
           18 rue du CNAM 75000 Paris<br>
-          <a href="mailto:mail@mail.com">mailto:mail@mail.com</a><br>
+          <a href="mailto:mail@mail.com">mail@mail.com</a><br>
           06 88 88 88 88<br>
-          <a href="https://fr.linkedin.com/in/cyrilduport"><img src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-49-226551.png?f=webp&w=512" width="4%"></a>         
+          <a href="https://fr.linkedin.com/in/cyrilduport"><img src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-49-226551.png?f=webp&w=512" width="5%" class="picto">cyrilduport</a>         
           </p>
         </td>
-        
+        <td colspan="3">
+           <p class="center">Mon objectif professionnel : Me challenger et apprendre au quotidien</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4" class="center"><h2>Expériences professionnelles</h2></td>
+      </tr>
+      <tr>
+        <td width="33%" class="center">2022-2024<br>
+            <i>Bouygues Telecom</i>
+        </td>
+        <td colspan="3">
+            <h3>Chef de projet digital</h3>
+            <ul>
+                <li>Gestion des projets digitaux sur le site https://www.bouyguestelecom.fr/</li>
+                <ul>
+                    <li>Recueil des besoins</li>
+                    <li>Spécifications pour les développements</li>
+                    <li>Recette/tests</li>
+                </ul>
+                <li>Pilotage du projet</li>
+                <ul>
+                    <li>Animation des COPIL/COPROJ</li>
+                    <li>Présentation en comité de direction</li>
+                    <li>Formation utilisateur</li>
+                </ul>
+            </ul>
+        </td>
+      </tr>
+      <tr>
+        <td width="33%" class="center">2020-2022<br>
+            <i>SFR</i>
+        </td>
+        <td colspan="3">
+            <h3>Chef de projet communication</h3>
+            <ul>
+                <li>Gestion des plans média</li>
+                <ul>
+                    <li>Echange avec agences media</li>
+                    <li>Brief sur les enjeux et le dispositif attendu</li>
+                    <li>Suivi budgétaire</li>
+                </ul>
+                <li>Relation presse</li>
+                <ul>
+                    <li>Organisation de conférences de presses</li>
+                    <li>Gestion de la communication et des éléments de langage</li>
+                    <li>Production des supports (leaflets...)</li>
+                </ul>
+            </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4" class="center"><h2>Formation académique</h2></td>
+      </tr>
+      <tr>
+        <td width="33%" class="center">2022<br>
+            <i>CNAM</i>
+        </td>
+        <td colspan="3">
+            <h3>Diplôme de chef de projet digital et communication</h3>
+            <p>Memoire sur l'importance de la DATA dans le digital et la communication</p>
+                
+        </td>
+      </tr>
+      <tr>
+        <td class="center" colspan="2" width="50%"><h2>Compétences</h2></td>
+        <td class="center" colspan="2" width="50%"><h2>Loisirs</h2></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+            Gestion de projet<br>
+            Suivi budgétaire<br>
+            Présentation en public<br>
+        </td>
+        <td colspan="2">
+            Escalade<br>
+            Culture japonaise<br>
+        </td>
       </tr>
     </table>
     
