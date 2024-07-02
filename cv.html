@@ -1,13 +1,37 @@
 <html>
   <head>
     <style>
+       h1,h2{
+        color:#87796E;
+       }
+       h3{
+        color:#60514E;
+       }
+       body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #F1F3F4;
+        color:#433B39;
+       }
         .header{
             text-align :center;
-            border:1px solid black;
             width: 1000px;
             margin-left : 100px;
             margin-right : 100px;
+            background-color: #EBE7E4;
         }
+        .semi-header{
+            text-align :center;
+            background-color: #EBE7E4;
+        }
+        .citation{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            text-align: center;
+            color:#87796E;
+
+        }
+
         .picto {
             margin-top :3px;
             margin-bottom: 3px;
@@ -27,7 +51,7 @@
     
   </head>
   <body>
-    <table align="center" border="1px">
+    <table align="center">
       <tr>
         <td class="header" colspan="4"><h1>Mon CV</h1></td>
     </tr>
@@ -43,11 +67,11 @@
           </p>
         </td>
         <td colspan="3">
-           <p class="center">Mon objectif professionnel : Me challenger et apprendre au quotidien</p>
+           <p class="citation"><u>Mon objectif professionnel :</u><br><br> <i>Me challenger et apprendre au quotidien</i></p>
         </td>
       </tr>
       <tr>
-        <td colspan="4" class="center"><h2>Exp&eacute;riences professionnelles</h2></td>
+        <td colspan="4" class="header"><h2>Exp&eacute;riences professionnelles</h2></td>
       </tr>
       <tr>
         <td width="33%" class="center">2022-2024<br>
@@ -94,21 +118,22 @@
         </td>
       </tr>
       <tr>
-        <td colspan="4" class="center"><h2>Formation acad&eacute;mique</h2></td>
+        <td colspan="4" class="header"><h2>Formation acad&eacute;mique</h2></td>
       </tr>
       <tr>
         <td width="33%" class="center">2022<br>
             <i>CNAM</i>
         </td>
         <td colspan="3">
+            <br>
             <h3>Dipl&ocirc;me de chef de projet digital et communication</h3>
             <p>Memoire sur l'importance de la DATA dans le digital et la communication</p>
-                
+            <br>                
         </td>
       </tr>
       <tr>
-        <td class="center" colspan="2" width="50%"><h2>Comp&eacute;tences</h2></td>
-        <td class="center" colspan="2" width="50%"><h2>Loisirs</h2></td>
+        <td class="semi-header" colspan="2" width="50%"><h2>Comp&eacute;tences</h2></td>
+        <td class="semi-header" colspan="2" width="50%"><h2>Loisirs</h2></td>
       </tr>
       <tr>
         <td colspan="2">
@@ -130,6 +155,9 @@
     <br>
     <hr>
     <br>
+    <div align="center">
+        <h2>Si mon CV vous intéresse, vous pouvez me contacter avec ce formulaire :</h2>
+    </div>    
     <table align="center">
         <form>
         <tr>
